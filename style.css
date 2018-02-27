@@ -1,0 +1,58 @@
+body{
+  padding: 0;
+  margin: 0 auto;
+  color: #44362D;
+}
+.color__custom{
+  color:#44362D;
+  font-weight: 500;
+}
+.parallax-container {
+  height: 420px;
+  background: rgba(255,255,255,0.2)
+}
+.back__custom{
+  background: #C35C2F;
+}
+.mt__1{
+  margin-top: 10px;
+}
+.mt__5{
+  margin-top: 50px;
+}
+.mb__5{
+  margin-bottom: 50px;
+}
+.m__auto{
+  margin: 0 auto;
+}
+.p__2{
+  padding: 18px 12px;
+}
+.logo{
+  border-radius: 100%;
+}
+.table{
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+.table__text{
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  padding: 0 12px;
+}
+.size__custom{
+  font-size: 48px;
+}
+.footer__custom{
+  background: #44362D;
+}
+
+@media screen and (max-width:767px) {
+  .hidden__s{
+    display: none;
+  }
+}
